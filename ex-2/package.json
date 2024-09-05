@@ -1,0 +1,17 @@
+{
+  "name": "tsc-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "board": "npm run build && node board.js",
+    "dev": "nodemon"
+  },
+  "author": "Begimai",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,5 @@
+ex-2/node_modules/
+.idea
+.vscode
+.DS_STORE
+board.js

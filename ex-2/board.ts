@@ -1,4 +1,4 @@
-function generateChessBoard() {
+const generateChessBoard = (): void => {
     let array: string[] = [];
 
     for (let i: number = 1; i <= 8; i++) {
@@ -8,6 +8,6 @@ function generateChessBoard() {
         console.log(array.join(''));
         array = [];
     }
-}
+};
 
 generateChessBoard();
